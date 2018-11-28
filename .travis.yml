@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "lts/*"
+install:
+  - npm install
+  - npm install -g codecov istanbul
+script:
+  - istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov
+env:
+  - CODECOV_TOKEN="7fc6c0b8-9810-4f4e-bf8e-14a27fad1331"    

@@ -1,0 +1,42 @@
+{
+  "name": "@oorts/read-vn-number",
+  "version": "0.1.2",
+  "description": "Read Vietnamese number",
+  "main": "lib/index",
+  "scripts": {
+    "report-coverage": "codecov",
+    "webpack": "webpack --color -p --progress --display-optimization-bailout",
+    "test": "mocha --reporter spec",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js --color -p --progress --display-optimization-bailout",
+    "prod": "webpack --mode production",
+    "prepare": "node_modules/@babel/cli/bin/babel.js src --out-dir lib"
+  },
+  "keywords": [
+    "read vietnamese number"
+  ],
+  "author": "Oorts <dev@oorts.info>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nguyentuandat/read-vn-number.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nguyentuandat/read-vn-number.git"
+  },
+  "homepage": "https://github.com/nguyentuandat/read-vn-number.git",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "chai": "^4.2.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.9.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "path": "^0.12.7",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  }
+}

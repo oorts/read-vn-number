@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9"> <![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Đọc số tự nhiên Việt Nam</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Desc">
+    <meta name="author" content="Gocuasuckhoe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+        <meta property="og:site_name" content="Mẹ Đã Sẵn Sàng 2018">
+        <meta property="og:title" content="Cuộc thi Thư Gửi Con">
+        <meta property="og:description" content="Ba Mẹ ơi, hãy kể lại những cảm xúc nguyên sơ nhất từ giây phút con gõ cửa cuộc đời! Để mãi về sau trên suốt hành trình trưởng thành, Con sẽ luôn biết rằng có một tình yêu vô điều kiện, dành riêng cho Con">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="http://cake.local/me-da-san-sang/mdss/img/social-img-1.png">
+        <meta property="og:url" content="http://cake.local/me-da-san-sang/thu-gui-con">
+        <meta itemprop="name" content="Mẹ Đã Sẵn Sàng 2018 - Cuộc thi Thư Gửi Con ">
+        <meta itemprop="description" content="Ba Mẹ ơi, hãy kể lại những cảm xúc nguyên sơ nhất từ giây phút con gõ cửa cuộc đời! Để mãi về sau trên suốt hành trình trưởng thành, Con sẽ luôn biết rằng có một tình yêu vô điều kiện, dành riêng cho Con">
+        <meta itemprop="image" content="http://cake.local/me-da-san-sang/mdss/img/social-img-1.png">
+        <link rel="alternate" hreflang="vi" href="https://gocuasuckhoe.vn">
+        <meta property="fb:app_id" content="499325400490569">
+-->
+    <link href="./css/style.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="application/javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="./dist/js/read-number-vi.js" type="application/javascript"></script>
+    <script src="./dist/js/main.js" type="application/javascript"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="display-1 text-center">Chuyển số thành chữ</h1>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-12">
+                <form action="" method="get">
+
+                    <div class="form-group">
+                        <input type="number" id="number" class="form-control" value="" placeholder="Nhập vào 1 số tự nhiên" name="number" />
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" value="1" id="cbxMoney">
+                            
+                        <label class="form-check-label" for="cbxMoney">Đọc thành tiền</label>
+                    </div>
+                    <div class="form-group">
+                        <button id="btnConvertDefault" type="submit" class="btn btn-primary">Chuyển số thành chữ</button>
+                    </div>
+                    <div id="output" class="alert alert-info">Kết quả</div>
+                </form>
+            </div>
+        </div>
+
+
+    </main>
+    <footer class="text-center">
+        &copy; 2018 by <a href="https://oorts.info" target="_blank">Oorts</a>
+    </footer>
+</body>
+
+</html>
