@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/nguyentuandat/read-vn-number.git"
   },
-  "homepage": "https://github.com/nguyentuandat/read-vn-number.git",
+  "homepage": "https://tools.oorts.info/num-to-word/",
   "devDependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.6",
