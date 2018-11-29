@@ -20,7 +20,7 @@ A small library that adds commas to numbers
 
     import readVNNumber from '@oorts/read-vn-number';
 
-    var formattedNum = readVNNumber.toVNWord(15);
+    var output = readVNNumber.toVNWord(15);
   
   
   Output should be `mười lăm`
