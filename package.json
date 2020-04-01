@@ -1,6 +1,6 @@
 {
   "name": "@oorts/read-vn-number",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Read Vietnamese number",
   "main": "lib/index",
   "scripts": {
@@ -18,7 +18,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oorts/read-vn-number.git"
+    "url": "git://github.com/oorts/read-vn-number.git"
   },
   "bugs": {
     "url": "https://github.com/oorts/read-vn-number.git"
