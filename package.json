@@ -1,6 +1,6 @@
 {
   "name": "@oorts/read-vn-number",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Read Vietnamese number",
   "main": "lib/index",
   "scripts": {
@@ -9,7 +9,8 @@
     "test": "mocha --reporter spec",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.js --color -p --progress --display-optimization-bailout",
     "prod": "webpack --mode production",
-    "prepare": "node_modules/@babel/cli/bin/babel.js src --out-dir lib"
+    "prepare": "node_modules/@babel/cli/bin/babel.js src --out-dir lib",
+    "coverage": "nyc npm run test"
   },
   "keywords": [
     "read vietnamese number"
@@ -32,10 +33,10 @@
     "chai": "^4.2.0",
     "cross-env": "^5.2.0",
     "eslint": "^5.9.0",
-    "istanbul": "^0.4.5",
-    "mocha": "^5.2.0",
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.0",
     "path": "^0.12.7",
-    "uglifyjs-webpack-plugin": "^2.0.1",
+    "terser-webpack-plugin": "^2.3.5",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   },
