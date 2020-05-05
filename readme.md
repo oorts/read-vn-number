@@ -1,6 +1,6 @@
 # Read Vietnamese number to words [![npm](https://img.shields.io/npm/v/@oorts/read-vn-number.svg)](https://www.npmjs.com/package/@oorts/read-vn-number)
 
-A small library that adds commas to numbers
+A small library that adds commas to numbers.
 
 ![Node.js CI](https://github.com/oorts/read-vn-number/workflows/Node.js%20CI/badge.svg) ![Node.js Packages](https://github.com/oorts/read-vn-number/workflows/Node.js%20Package/badge.svg)
 ![](https://travis-ci.org/oorts/read-vn-number.svg?branch=master) [![codecov](https://codecov.io/gh/oorts/read-vn-number/branch/master/graph/badge.svg)](https://codecov.io/gh/oorts/read-vn-number)
