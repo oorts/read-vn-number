@@ -1,6 +1,6 @@
 {
   "name": "@oorts/read-vn-number",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Read Vietnamese number",
   "main": "lib/index",
   "scripts": {
